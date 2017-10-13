@@ -8,6 +8,7 @@ db = client.test
 
 col = db.users
 
-col.find_one({"email": "itzel@hyatt.co"})
+col.find_one({"email": "orland@leffler.biz"})
 
-print col
+print col.id
+
